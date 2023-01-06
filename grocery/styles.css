@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(175, 206, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-center{
+    max-width: 30rem;
+    margin: 8rem auto 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.alert {
+    text-align: center;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    min-height: 1rem;
+}
+
+.alert-danger {
+    color: rgb(223, 95, 95);
+  }
+
+.alert-success {
+    color: rgb(129, 184, 129);
+}
+
+.grocery-form h3 {
+    color: rgb(127, 155, 174);
+    text-align: center;
+    margin: 2rem 0; 
+    letter-spacing: 0.5rem;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+  }
+
+#grocery{
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-right: 2rem;
+    border: 1px solid rgb(127, 155, 174);
+    flex: 1 0 auto;
+}
+.submit-btn{
+    background-color: transparent;
+    border: 1px solid rgb(127, 155, 174);
+    border-radius: 5px;
+    padding: 0 0.3rem;
+    color: rgb(63, 63, 63);
+}
+
+.grocery-container{
+    margin-top: 2rem;
+    visibility: hidden;
+    transition: all 1s;
+} 
+.show-container {
+    visibility: visible;
+  }
+
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    color: rgb(63, 63, 63);
+    padding: 0.3rem 0.5rem;
+    border-radius: 10px;
+}
+
+.grocery-item:hover{
+    background-color: rgb(221, 237, 248);
+}
+
+.title{
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.edit-btn,
+.delete-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.edit-btn {
+    color: rgb(129, 184, 129);
+}
+.edit-btn:hover {
+    color: rgb(94, 136, 94);
+}
+.delete-btn{
+    color: rgb(223, 95, 95);
+}
+.delete-btn:hover{
+    color: rgb(175, 74, 74);
+}
+
+.clear-btn{
+    background-color: transparent;
+    border: 1px solid rgb(127, 155, 174);
+    border-radius: 5px;
+    padding: 0.3rem 0.3rem;
+    color: rgb(63, 63, 63);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
